@@ -5,7 +5,7 @@ import Button from './button'
 function Links() {
     return (
         <Container>
-            <Button text="Get Pre Approved Now!" image="https://lh3.googleusercontent.com/proxy/XHATDDUNEgz7s98j_LCmeHBBnP_nANrJBU7KktKb8OqOVQxcjqPofSLweoJJDxjha2rOetk5gZLA2VIsRmPSmrANWm63McVKRDuoAMCqXbvZQRtCRgkeKoyi7yGRXsE" className='applyIcon' link='https://www.blink.mortgage/app/signup/p/premiermortgagelendingllc/'/>
+            <Button text="Get Pre Approved Now!" image="https://www.freeiconspng.com/uploads/mouse-cursor-click-png-12.png" className='applyIcon' link='https://www.blink.mortgage/app/signup/p/premiermortgagelendingllc/'/>
             <Button text="Spotify" image="https://1000logos.net/wp-content/uploads/2021/04/Spotify-logo.png" className='spotifyIcon' link='https://open.spotify.com/show/6KVK8eYZuj62pu53iTABas?si=EhoGTLxQQYa2mzfsRqtY4g&dl_branch=1'/>
             <Button text="The Mike Drop" image="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png" className='youtubeIcon' link='https://www.youtube.com/channel/UCrAa-LeUtudyis0KsojWyZQ'/>
             <Button text="Apple Podcast" image="https://miktysh.com.au/wp-content/uploads/2019/12/Apple-podcast-logo-transparent.png" className='appleIcon' link='https://podcasts.apple.com/us/podcast/premier-podcast/id1449991889'/>
