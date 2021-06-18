@@ -1,16 +1,23 @@
 .App {
   text-align: center;
+  background-image: url(./images/background-blurred.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
+.headshot {
+  margin-top: 20px;
+  max-height: 230px;
+  max-width: 230px;
+  border-radius: 100%;
+  border-color: rgb(0, 0, 0);
+  border-width: 20px;
+  box-shadow: rgb(255 255 255 / 30%) 0px 2px 50px -5px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
   pointer-events: none;
-}
+  align-self: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -28,6 +35,93 @@
   color: #61dafb;
 }
 
+.name {
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  box-shadow: rgb(255 255 255 / 69%) 0px 2px 50px -10px,
+    rgb(0 0 0 / 73%) 0px 160px 10px -10px;
+}
+
+
+.youtubeIcon {
+  width: 8%;
+  height: 8%;
+  justify-self: left;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.spotifyIcon {
+  width: 10%;
+  height: 10%;
+  justify-self: left;
+  align-self: center;
+  margin-right: 0px;
+}
+
+.appleIcon {
+  width: 7%;
+  height: 7%;
+  justify-self: left;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.applyIcon {
+  width: 10%;
+  height: 10%;
+  justify-self: left;
+  align-self: center;
+  margin-right: 0px;
+}
+
+.pmlLogo {
+  width: 20%;
+  height: 20%;
+  align-self: center;
+}
+
+.socialIcon {
+  margin: 10px;
+}
+
+.buttonText {
+  color: rgb(31, 31, 31);
+  font-size: 3vmax;
+  font-weight: 500;
+  align-self: center;
+  text-decoration: none;
+}
+
+.buttonStyle {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+} 
+
+.buttonStyle:hover {
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
+  rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+  transform: scale(1.05);
+  border-color: rgba(249, 249, 249, 0.8);
+}
+
+
+
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +130,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/

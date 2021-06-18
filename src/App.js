@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import mike from './images/mike-headshot.png'
 import './App.css';
+import Header from './components/header';
+import Links from './components/links';
+import logo from './images/pml-logo.png';
+import Socials from './components/socials';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <a href='http://www.pmlhomeloans.com/meet-our-team/michael-comerford/' style={{textDecoration: 'none'}}> 
+      <img src={mike} className="headshot" alt="logo" />
+      </a>
+      <text className="name">Mike Comerford</text>
+      <Links/>
+      <a href='http://www.pmlhomeloans.com' style={{textDecoration: 'none'}}> 
+      <img src={logo} className="pmlLogo" alt="logo" />
+      </a>
+      <Socials/>
     </div>
   );
 }
