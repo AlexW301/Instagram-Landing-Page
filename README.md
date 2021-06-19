@@ -1,3 +1,3 @@
 # Instagram Landing Page
 
-A landing page for an Instagram bio to share custom links.
+Created an attractive landing page for an Instagram bio to share multiple custom links in the bio.
